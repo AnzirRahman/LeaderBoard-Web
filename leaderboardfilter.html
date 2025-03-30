@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>LeaderBoard - Filter</title>
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <div class="section-container header-container">
+          <a href="index.html" class="logo-container">
+            <img class="logo-img" src="img/logo-1.png" alt="LeaderBoard Logo" />
+          </a>
+          <div class="cta-container">
+            <a href="index.html#app" class="cta btn">Get the App</a>
+          </div>
+        </div>
+      </header>
+      <main id="main">
+        <div id="hero">
+          <div class="section-container hero-container leaderboard-container">
+            <form class="hero-main ranking-main" action="leaderboard.html">
+              <div class="ranking-header underline">
+                <p>Rankings</p>
+              </div>
+              <div class="ranking-input-section">
+                <div class="input-group">
+                  <label for="batch">Batch:</label>
+                  <div class="input-container">
+                    <img
+                      class="btn form-input-icon"
+                      src="img/search-icon.svg"
+                      alt="Search Icon" />
+                    <input
+                      type="text"
+                      id="batch"
+                      name="batch"
+                      placeholder="ex: 61"
+                      required />
+                  </div>
+                </div>
+                <div class="input-group">
+                  <label for="department">Department:</label>
+                  <div class="input-container">
+                    <img
+                      class="btn form-input-icon"
+                      src="img/search-icon.svg"
+                      alt="Search Icon" />
+                    <input
+                      type="text"
+                      id="department"
+                      name="department"
+                      placeholder="ex: Computer Science & Engineering"
+                      required />
+                  </div>
+                </div>
+                <div class="input-group">
+                  <label for="section">Section:</label>
+                  <div class="input-container">
+                    <img
+                      class="btn form-input-icon"
+                      src="img/search-icon.svg"
+                      alt="Search Icon" />
+                    <input
+                      type="text"
+                      id="section"
+                      name="section"
+                      placeholder="ex: All"
+                      required />
+                  </div>
+                </div>
+              </div>
+              <div class="ranking-button-section">
+                <button type="reset" class="btn btn-light">Cancel</button>
+                <button type="submit" class="btn">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+      <footer id="footer">
+        <div class="section-container footer-container">
+          <a href="index.html" class="logo-container">
+            <img class="logo-img" src="img/logo-1.png" alt="LeaderBoard Logo" />
+          </a>
+          <div class="nav-container">
+            <ul class="nav">
+              <li class="nav-items">
+                <a href="index.html#features" class="nav-links">Features</a>
+              </li>
+              <li class="nav-items">
+                <a href="index.html#app" class="nav-links">App</a>
+              </li>
+              <li class="nav-items">
+                <a href="index.html#reviews" class="nav-links">Reviews</a>
+              </li>
+              <li class="nav-items">
+                <a href="blog.html#contact" class="nav-links">Contact</a>
+              </li>
+              <li class="nav-items">
+                <a href="blog.html#support" class="nav-links">Support</a>
+              </li>
+            </ul>
+          </div>
+          <div class="cta-container">
+            <a href="index.html#app" class="cta btn">Get the app</a>
+          </div>
+        </div>
+        <div class="section-container footer-tac">
+          <p class="footer-text">
+            &copy; 2023 LeaderBoard. All rights reserved.
+          </p>
+          <div class="tac-box">
+            <p class="tac-link">Terms and Conditions</p>
+            <p class="tac-link">Privacy Policy</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
